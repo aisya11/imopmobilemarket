@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431817987220",
+    "firebase_url": "https://cimol-android-admin.firebaseio.com",
+    "project_id": "cimol-android-admin",
+    "storage_bucket": "cimol-android-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431817987220:android:df370953fcae1a99",
+        "android_client_info": {
+          "package_name": "com.imop.admin.cimol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431817987220-ft1o5r96b3tkac8qgm41iofb7ank8svj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-bIj4MM-wxidjIkYyCLteggDJUhyvADY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

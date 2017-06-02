@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_weight="1"
+            android:text="TRANSAKSI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_no">
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="ID"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewidtransaksi22"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="TANGGAL"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textviewtgl_trans22"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/listviewdetail22"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.06"
+            android:layout_height="200dp">
+        </ListView>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_weight="1"
+                android:text="REKAP ORDER"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border_no"
+            >
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="SUB TOTAL"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewsubt22"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="ONGKIR"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewongkir22"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="TOTAL"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewttl22"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="KURIR"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewkurir"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="KONFIRMASI"
+                    style="@style/detailBrgKanan" />
+                <TextView
+                    android:layout_weight="1"
+                    style="@style/detailBrgKanan" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="NAMA"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewnamarek"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="NO. REK."
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewnorek"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:padding="0dp"
+                android:weightSum="2" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="JUMLAH"
+                    style="@style/detailBrgKiri" />
+
+                <TextView
+                    android:id="@+id/textViewjmlrek"
+                    style="@style/detailBrgKanan"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+
+
+        </ScrollView>
+        <TextView
+            android:layout_weight="1"
+            android:text="TUJUAN PENGIRIMAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/textatasnama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewAlamat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textviewkec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewkab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/textViewprof2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/textViewkodepos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewtlp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/textviResi22"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edittextResi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Nomor Resi" />
+
+        <Button
+            android:id="@+id/btnresi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#ee0000"
+            android:text="MASUKAN RESI"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.41" />
+    </LinearLayout>
+
+</ScrollView>
